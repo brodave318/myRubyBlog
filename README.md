@@ -1,6 +1,6 @@
 # README
 
-Building a Blog System from the course 'Learn Ruby on Rails from Scratch' by Eduonix Learning Solutions -- Stackskills
+Building a Blog System from the course 'Learn Ruby on Rails from Scratch' by Eduonix Learning Solutions -- Udemy
 
 ^^OVERVIEW^^
 
