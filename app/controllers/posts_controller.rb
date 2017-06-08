@@ -9,7 +9,7 @@ class PostsController < ApplicationController
   end
 
   def create
-
+    Post.create(post_params)
   end
 
   def edit
@@ -27,4 +27,8 @@ class PostsController < ApplicationController
   def destroy
 
   end
+  private
+    def post_params
+      require_params(:post).permit(:title, :body, :category_id, :author_id)
+    end
 end
