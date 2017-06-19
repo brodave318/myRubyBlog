@@ -16,8 +16,6 @@ development:
   database: myRubyBlog
   username: postgres
   password: oikonomia
-  pool: 5
-  timeout: 5000
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -29,8 +27,6 @@ test:
   database: myRubyBlog
   username: postgres
   password: oikonomia
-  pool: 5
-  timeout: 5000
 
 production:
   <<: *default
@@ -39,5 +35,3 @@ production:
   database: myRubyBlog
   username: postgres
   password: oikonomia
-  pool: 5
-  timeout: 5000
